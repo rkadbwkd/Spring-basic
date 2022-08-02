@@ -11,4 +11,5 @@ public interface MemberRepository {
     Optional<Member> findByName(String name);
     List<Member> findAll(); // 저장된 모든 ID 반환
 
+    void clearStore();
 }
